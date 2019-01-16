@@ -17,13 +17,13 @@ public class StudentArray
     public static void main(String[] args)
     {
         Student [] studentList = new Student[6];
-        Student student1 = new Student("1", "Jim Halpert", "Programmer");
+        Student student1 = new Student("1", "Jim Halpert", "Salesman");
         studentList[0] = student1;
-        studentList[1] = new Student("2", "Michael Scott", "Programmer");
-        studentList[2] = new Student("3", "Pam Beesley", "Programmer");
-        studentList[3] = new Student("4", "Dwight Schrute", "Programmer");
-        studentList[4] = new Student("5", "Toby Flenderson", "Programmer");
-        studentList[5] = new Student("6", "Kevin Malone", "Programmer");
+        studentList[1] = new Student("2", "Michael Scott", "Regional Manager");
+        studentList[2] = new Student("3", "Pam Beesley", "Saleswoman");
+        studentList[3] = new Student("4", "Dwight Schrute", "Assistant Manager");
+        studentList[4] = new Student("5", "Toby Flenderson", "HR Rep");
+        studentList[5] = new Student("6", "Kevin Malone", "Accountant");
         
         
         for(int i=0; i<studentList.length; i++)
