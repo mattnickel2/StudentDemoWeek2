@@ -13,11 +13,13 @@ public class Student  {
     
     private String studentID;
     private String studentName;
+    private String program;
     
-    public Student(String givenID, String givenName)
+    public Student(String givenID, String givenName, String givenProgram)
     {
             studentID = givenID;
             studentName = givenName;
+            program = givenProgram;
     }
     
     public void setStudentID(String givenID)
@@ -39,7 +41,16 @@ public class Student  {
     {
         return studentName;
     }
+        
+    public void setProgram(String givenProgram)
+    {
+        program = givenProgram;
+    }
     
+    public String getProgram() 
+    {
+        return program;
+    }
     
  
 }
